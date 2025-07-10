@@ -1,0 +1,263 @@
+
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1100px;
+    height: 500px;
+    margin: 50px auto;
+    background-image: linear-gradient(to bottom, rgba(8, 5, 14, 0.9), rgba(255, 255, 255, 0)), url('images/Banner\ Image.png');
+    background-size: cover;
+    border-radius: 15px;
+}
+
+.banner-content {
+    color: white;
+}
+
+.banner-content h3 {
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    margin: 0;
+}
+
+.banner-content h1 {
+    font-size: 60px;
+    font-weight: bolder;
+    text-align: center;
+    margin: 0;
+}
+
+.shape {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.holiday-offer {
+    text-align: center;
+}
+
+.holiday-offer h1 {
+    font-size: 75px;
+    font-weight: bold;
+    color: #FF0000;
+    margin-bottom: 30px;
+}
+
+.holiday-offer h6 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #FF0000;
+    margin: 0px;
+}
+
+.holiday-offer h4 {
+    font-size: 42px;
+    font-weight: bold;
+    margin: 10px 0px 30px 0px;
+}
+
+.mid-night-party {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: linear-gradient(to right, rgba(8, 5, 14, 0.9), rgba(255, 255, 255, 0)), url('images/Vectorrr.png');
+    width: 1100px;
+    height: 500px;
+    margin: 50px auto;
+    background-size: cover;
+    border-radius: 15px;
+}
+
+
+.mid-night-party h2 {
+    color: white;
+    font-size: 60px;
+    font-weight: bolder;
+    margin: 0px;
+    letter-spacing: 6px;
+    line-height: 65px;
+}
+
+.mid-night-party p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.mid-night-party h6 {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 40px 0px 0px 30px;
+}
+
+.join-section {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0.1), rgba(255, 255, 255, 0.7));
+    border-radius: 15px;
+}
+
+.join-section h4 {
+    margin: 5px 0px;
+}
+
+.join-section h4 span {
+    color: #FF0000;
+}
+
+.btn-join {
+    background-color: #FF0000;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+
+.best-offer-section {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    gap: 50px;
+    margin-top: 100px;
+}
+
+p {
+    font-size: 18px;
+    font-weight: 400;
+    opacity: 0.6;
+}
+
+.new-offer {
+    font-size: 20px;
+    font-weight: 600;
+    color: #FF0000;
+    margin: 0px;
+}
+
+.coming-soon {
+    font-size: 40px;
+    font-weight: bolder;
+    margin: 15px 0px;
+}
+
+.offer-img {
+    border: 10px solid #FF0000;
+    border-radius: 50%;
+    padding: 15px;
+}
+
+.year {
+    font-size: 40px;
+    font-weight: 800;
+    margin: 0px;
+    color: #FF0000;
+}
+
+
+.functional {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 100px 0px;
+}
+
+.functional h6 {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0px;
+}
+
+.functional h1 {
+    font-size: 60px;
+    font-weight: bolder;
+    margin: 0px;
+}
+
+.functional h1 span {
+    color: #FF0000;
+}
+
+
+.gifts-title {
+    font-size: 20px;
+    font-weight: 500;
+    color: #FF0000;
+    margin: 0px;
+}
+
+.gifts-sub-title {
+    font-size: 40px;
+    font-weight: bolder;
+    margin: 0px;
+}
+
+.img-container {
+    display: flex;
+    background-image: url('images/Rectangle\ 2.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    border-radius: 15px;
+    margin-bottom: 100px;
+}
+
+
+.img-card {
+    display: flex;
+    height: 400px;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.Subscribe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 100px 0px;
+    background-color: #ffeded;
+    padding: 70px 0px;
+    border-radius: 15px;
+}
+
+.subscribe-sub-title {
+    font-size: 40px;
+    font-weight: bolder;
+    margin-bottom: 0px;
+}
+
+.btn-subscribe {
+    display: flex;
+    margin-top: 20px;
+}
+
+.email-input {
+    padding: 10px 20px;
+    border-radius: 20px 0px 0px 20px;
+    border: none;
+}
+
+.btn-sub {
+    padding: 10px 20px;
+    border-radius: 0px 20px 20px 0px;
+    border: none;
+    background-color: #FF0000;
+    color: white;
+}
